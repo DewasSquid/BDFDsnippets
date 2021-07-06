@@ -8,11 +8,11 @@
 ### Examples
 
 #### Balance command
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/yg3wQgM/Balance-Command.gif" alt="Balance-Command" border="0" /></a>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.ibb.co/yg3wQgM/Balance-Command.gif" alt="Balance-Command" border="0" /></a>
 
 
 #### Ban command sample from wiki
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/1LpmdMT/Wiki-Ban-Commands.gif" alt="Wiki-Ban-Commands" border="0" /></a>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.ibb.co/1LpmdMT/Wiki-Ban-Commands.gif" alt="Wiki-Ban-Commands" border="0" /></a>
 
 
 ------------
