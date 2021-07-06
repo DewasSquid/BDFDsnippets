@@ -8,14 +8,13 @@
 ### Examples
 
 #### Balance command
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.ibb.co/yg3wQgM/Balance-Command.gif" alt="Balance-Command" border="0" /></a>
-
+![image](https://im5.ezgif.com/tmp/ezgif-5-c0694b78d74b.gif)
 
 #### Ban command sample from wiki
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://i.ibb.co/1LpmdMT/Wiki-Ban-Commands.gif" alt="Wiki-Ban-Commands" border="0" /></a>
+<img src="https://i.ibb.co/1LpmdMT/Wiki-Ban-Commands.gif" alt="Wiki-Ban-Commands" border="0" />
 ---
 ### Add it to your editor
-Go to the following folder and paste the file into it
+Go to ``"C:\Users\%username%\AppData\Roaming\Code\User\snippets"`` and paste the file into it
 ![image](https://user-images.githubusercontent.com/70018300/124665167-c3fa2f00-de82-11eb-9555-0257d741d8ee.png)
 
 
