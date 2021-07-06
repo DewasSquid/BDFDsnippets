@@ -4,7 +4,7 @@
 - It does not support all functions.
 - It contains some wiki codes by default (Kick, Ban).
 
-======
+---
 ### Examples
 
 #### Balance command
