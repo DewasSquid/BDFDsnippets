@@ -1,0 +1,125 @@
+{
+    // BDscript2 snippet for visual studio code by DewasSquid
+    "Insert a set-Var function": {
+      "prefix": "$setUserVar",
+      "body": [
+        "$$setUserVar[${2:NAME};${3:VALUE}]$0",
+      ],
+      "description": "Insert a setUserVar function"
+    },
+    "Insert a get-Var function": {
+      "prefix": "$getUserVar",
+      "body": [
+        "$$getUserVar[${2:NAME}]$0",
+      ],
+      "description": "Insert a getUserVar function"
+    },
+    "Insert a setServerVar function": {
+      "prefix": "$setServerVar",
+      "body": [
+        "$$setServerVar[${2:NAME};${3:VALUE}]$0",
+      ],
+      "description": "Insert a setServerVar function"
+    },
+    "Insert a getServerVar function": {
+      "prefix": "$getServerVar",
+      "body": [
+        "$$getServerVar[${2:NAME}]$0",
+      ],
+      "description": "Insert a getServerVar function"
+    },
+    "Start if statement block": {
+        "prefix": "$if",
+        "body": [
+          "$$if[${1:true}]",
+          "    $$c[Code to execute]",
+          "    $2",
+          "$$endif$0",
+        ],
+        "description": "Start if statement block"
+      },
+      "Insert a elseif block": {
+        "prefix": "$elseif",
+        "body": [
+          "$$elseif[${1:true}]$0"
+        ],
+        "description": "Insert a elseif block"
+      },
+      "Insert a else block": {
+        "prefix": "$else",
+        "body": [
+          "$$else",
+          "    $$c[Code to execute]",
+          "    $0"
+        ],
+        "description": "Insert a else block"
+      },
+      "Command can be used only if the statement is respected": {
+        "prefix": "$onlyIf",
+        "body": [
+          "$$onlyIf[${1:true==true};${2:Error message}]$0"
+        ],
+        "description": "Command can be used only if the statement is respected"
+      },
+      "Command can be used only if the message contain the following words": {
+        "prefix": "$onlyIfMessageContains",
+        "body": [
+          "$$onlyIfMessageContains[${1:list;of;words};${2:Error message}]$0"
+        ],
+        "description": "Command can be used only if the statement is respected"
+      },
+      "Insert a try, catch statement": {
+        "prefix": "$try",
+        "body": [
+          "$$try",
+          "    $1",
+          "$$catch",
+          "    ${2:Error occured : $$error[message]}",
+          "$$endtry$3"
+        ],
+        "description": "Insert a try-catch statement"
+      },
+      "insert an embed structure": {
+        "prefix": "$title",
+        "body": [
+          "$$title[${1:Embed title}]",
+          "$$description[${2:Embed description}]",
+          "$$color[${3:ffffff}]$0"
+        ],
+        "description": "insert an embed structure"
+      },
+      "Insert a wiki's kick code sample": {
+        "prefix": ".wiki-kick",
+        "body": [
+          "$$nomention",
+          "$$onlyIfMessageContains[$message[1];@;Please mention someone!]",
+          "$$deletecommand",
+          "",
+          "$$kickMention",
+          "$$addField[User kicked;<@$$mentioned[1]>]",
+          "$$addField[Kicked by;<@$$authorID> ]",
+          "$$color[ff0000]",
+          "",
+          "$$onlyAdmin[this command is for admins only]",
+          "$$suppressErrors[Please make sure I have admin perms and my role is higher than the person you are kicking!]"
+        ],
+        "description": "Insert a wiki's kick code sample"
+      },
+      "Insert a wiki's ban code sample": {
+        "prefix": ".wiki-ban",
+        "body": [
+          "$$nomention",
+          "$$onlyIfMessageContains[$message[1];@;Please mention someone!]",
+          "",
+          "$$deletecommand",
+          "$$ban",
+          "$$addField[User banned;<@$$mentioned[1]>]",
+          "$$addField[Banned by;<@$$authorID> ]",
+          "$$color[ff0000]",
+          "",
+          "$$onlyAdmin[this command is for admins only]",
+          "$$suppressErrors[Please make sure I have admin perms and my role is higher than the person you are banning!]"
+        ],
+        "description": "Insert a wiki's ban code sample"
+      }
+}
