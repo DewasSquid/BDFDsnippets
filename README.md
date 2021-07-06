@@ -16,5 +16,5 @@
 
 
 ------------
-*Color highlight :  [BDFD colors][BDFD color]*
+*Color highlight :  [BDFD color]*
 [BDFD color]: https://github.com/oriel-beck/bdfd-colors "By oriel-beck"
