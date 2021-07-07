@@ -8,7 +8,7 @@
 ### Examples
 
 #### Balance command
-![image](https://im5.ezgif.com/tmp/ezgif-5-c0694b78d74b.gif)
+![Balance command](https://user-images.githubusercontent.com/70018300/124750442-d8c6d900-defb-11eb-9451-55f58582090d.gif)
 
 #### Ban command sample from wiki
 <img src="https://i.ibb.co/1LpmdMT/Wiki-Ban-Commands.gif" alt="Wiki-Ban-Commands" border="0" />
